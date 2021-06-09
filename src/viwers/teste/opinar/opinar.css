@@ -1,0 +1,77 @@
+.conteudoTeste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.descricao {
+  margin-top: 35px;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.comment {
+  padding: 10px 0px;
+}
+
+.buttonPostar {
+  margin-top: 15px;
+  width: 350px;
+  height: 35px;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #274073;
+  font-size: 18px;
+  transition: 0.2s;
+  border:none!important;
+}
+
+.buttonPostar:hover{
+  cursor: pointer;
+  background-color: #294973;
+  transition: 0.2s;
+}
+
+.suaOpiniao {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listaFeed {
+  list-style-type: none;
+}
+
+.sideA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 170px;
+}
+.sideB {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.styleComentarios {
+  margin-top: 15px;
+}
+
+.sideB img{
+  width: 180px;
+}
+
+textarea{
+  margin-top: 10px;
+}

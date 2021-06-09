@@ -1,0 +1,54 @@
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  font-size: 22px;
+  color: black;
+  font-family: 'Signika', sans-serif;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.ilustracao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-top: 10px;
+}
+.ilustracao img{
+  width: 300px;
+}
+
+.titulo {
+  padding: 10px 0px;
+  text-align: justify;
+}
+
+.atencao {
+  padding: 10px 0px 0px 0px;
+  text-align: justify;
+}
+.paraCompletar {
+  padding: 20px 0px 0px 0px;
+  text-align: justify;
+}
+
+

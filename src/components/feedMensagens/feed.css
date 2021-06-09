@@ -1,0 +1,51 @@
+.contentFeed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f6fa;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+}
+
+.love {
+  color: red;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.noLove {
+  color: #192a56;
+  font-size: 20px;
+  padding: 7px;
+}
+.like {
+  color: red;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.noLike {
+  color: #192a56;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.emogi {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 10px ;
+  width: 100%;
+}
+
+.contentFeed span {
+  color: rgba(25, 42, 86, 1);
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  color: #192a56;
+  text-align: justify;
+}
